@@ -1,0 +1,14 @@
+ca-certificates
+cmake
+curl
+g++
+git
+libcurl4-openssl-dev
+live-boot
+lxde-core
+lightdm
+make
+network-manager
+firefox-esr
+sudo
+xterm
