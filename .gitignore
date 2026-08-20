@@ -1,0 +1,6 @@
+*.gguf
+*.partial
+build/
+.iso-work/
+reviveai-amd64.iso
+reviveai-amd64.iso.sha256
