@@ -56,6 +56,9 @@ After installation, open <http://127.0.0.1:8080>.
 
 ## Bootable USB image
 
+See the complete [USB creation and boot guide](USB-GUIDE.md) for Rufus, Etcher,
+BIOS boot keys, first-time model setup, and persistence.
+
 Tagged releases can include `reviveai-amd64.iso`, a Debian-based hybrid image
 that boots from USB or DVD. Write it with Rufus, balenaEtcher, GNOME Disks, or:
 
