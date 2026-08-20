@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eu
+git clone --depth 1 https://github.com/ggml-org/llama.cpp.git /tmp/llama.cpp
+cmake -S /tmp/llama.cpp -B /tmp/llama.cpp/build \
+  -DGGML_NATIVE=OFF -DLLAMA_CURL=ON -DCMAKE_BUILD_TYPE=Release
+cmake --build /tmp/llama.cpp/build --target llama-server -j2
+install -m 0755 /tmp/llama.cpp/build/bin/llama-server /opt/reviveai/bin/llama-server
+rm -rf /tmp/llama.cpp
