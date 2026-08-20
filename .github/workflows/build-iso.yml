@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build hybrid USB/DVD image
-        run: sudo ./image/build-iso.sh
+        run: sudo bash ./image/build-iso.sh
       - name: Create checksum
         run: sha256sum reviveai-amd64.iso > reviveai-amd64.iso.sha256
       - uses: actions/upload-artifact@v4
