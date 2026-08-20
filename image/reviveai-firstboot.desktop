@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=ReviveAI First Boot
+Comment=Open ReviveAI or start model setup
+Exec=sh -c 'sleep 5; if [ -e /opt/reviveai/models/assistant.gguf ]; then firefox-esr http://127.0.0.1:8080; else xterm -title "ReviveAI Setup" -e "echo ReviveAI needs an AI model.; echo; echo Run: sudo /opt/reviveai/bin/download-model; echo; bash"; fi'
+Terminal=false
+X-GNOME-Autostart-enabled=true
