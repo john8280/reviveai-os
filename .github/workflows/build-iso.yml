@@ -15,6 +15,12 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      - name: Install current Debian Live Build
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y debootstrap git make
+          git clone --depth 1 https://salsa.debian.org/live-team/live-build.git /tmp/live-build
+          sudo make -C /tmp/live-build install
       - name: Build hybrid USB/DVD image
         run: sudo bash ./image/build-iso.sh
       - name: Create checksum
