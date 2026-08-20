@@ -18,7 +18,7 @@ jobs:
       - name: Install current Debian Live Build
         run: |
           sudo apt-get update
-          sudo apt-get install -y debootstrap gettext git make po4a
+          sudo apt-get install -y debian-archive-keyring debootstrap gettext git make po4a
           git clone --depth 1 https://salsa.debian.org/live-team/live-build.git /tmp/live-build
           sudo make -C /tmp/live-build install
       - name: Build hybrid USB/DVD image
