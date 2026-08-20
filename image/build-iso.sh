@@ -23,6 +23,7 @@ lb config noauto \
   --architectures amd64 \
   --binary-images iso-hybrid \
   --debian-installer live \
+  --security false \
   --archive-areas "main contrib non-free-firmware" \
   --bootappend-live "boot=live components persistence username=reviveai hostname=reviveai"
 
