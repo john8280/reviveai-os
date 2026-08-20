@@ -1,0 +1,7 @@
+#!/bin/sh
+set -eu
+useradd --system --home-dir /opt/reviveai --shell /usr/sbin/nologin reviveai || true
+chown -R reviveai:reviveai /opt/reviveai/models
+chmod 0750 /opt/reviveai/models
+chmod 0755 /opt/reviveai/bin/download-model
+systemctl enable reviveai.service
