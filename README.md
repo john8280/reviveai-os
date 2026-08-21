@@ -114,7 +114,8 @@ ReviveAI OS is an independent open-source experiment. Donations help cover test
 hardware, replacement drives, model testing, documentation, and accessibility work.
 
 [Visit the Codex-built website](https://reviveai-os.john8280.chatgpt.site) ·
-[Visit the Manus website](https://reviveaios-tvnfwajt.manus.space)
+[Visit the Manus website](https://reviveaios-tvnfwajt.manus.space) ·
+[Support ReviveAI OS with PayPal](https://paypal.me/jmarruffo)
 
 ## License
 
