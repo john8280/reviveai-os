@@ -38,7 +38,7 @@ local-model runtimes.
 ## Quick start
 
 ```bash
-git clone https://github.com/OWNER/reviveai-os.git
+git clone https://github.com/john8280/reviveai-os.git
 cd reviveai-os
 ./hardware-check.sh
 sudo ./install.sh
@@ -108,7 +108,15 @@ Those capabilities require a separate, explicit permissions design.
 - Hardware compatibility database and benchmark submission
 - Signed releases and reproducible image builds
 
+## Support the project
+
+ReviveAI OS is an independent open-source experiment. Donations help cover test
+hardware, replacement drives, model testing, documentation, and accessibility work.
+
+[Visit the project website](https://reviveai-os.john8280.chatgpt.site) ·
+[Support ReviveAI OS on Ko-fi](https://ko-fi.com/V7V4RAK9C)
+
 ## License
 
-ReviveAI OS is licensed under the MIT License. Models have their own licenses; review a
-model's license before redistribution or commercial use.
+ReviveAI OS is licensed under the MIT License. Models have their own licenses;
+review a model's license before redistribution or commercial use.
